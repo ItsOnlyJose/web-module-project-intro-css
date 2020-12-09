@@ -30,9 +30,23 @@ body{
 	font-family: 'Roboto Mono';
 }
 
-nav ul{
+nav{
+	display: block;
+}
+
+nav .nav-container{
+	margin: 2em;
+	padding: 1em;
 	display: flex;
 	justify-content: space-evenly;
+}
+
+.nav-container a{
+	text-decoration: none;
+	color: white;
+	background:orange;
+	padding: 1em;
+	border-radius: 15px;
 }
 
 header{
