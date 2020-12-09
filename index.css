@@ -1,0 +1,135 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+body{
+	font-size: 16px;
+	font-family: 'Roboto Mono';
+}
+
+nav{
+	display: block;
+}
+
+nav .nav-container{
+	padding: 1em;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.nav-container a{
+	text-decoration: none;
+	color: white;
+	padding: 1em;
+	border-radius: 15px;
+}
+
+.nav-item1{
+	background: #FF764E;
+}
+
+.nav-item2{
+	background: #5ED3EB;
+}
+
+.nav-item3{
+	background: #FFCD69;
+}
+
+header{
+	height: 15%;
+	width: 100%;
+}
+
+.container{
+	margin: 0 25%;
+	display: inline-flex;
+}
+
+header .header-text{
+	width: 50%;
+}
+
+
+header h1{
+	font-size: 48px;
+	font-family: 'Chelsea Market', cursive;
+}
+
+header div {
+	margin: 0 auto;
+}
+
+
+.header-img{
+	height: 20vh;
+	border-radius: 50%;
+}
+
+p{
+	margin: 1em 1em;
+}
+
+.main{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.yosemite-intro {
+	background: #DDB9A3;
+	color: white;
+	text-align: center;
+ }
+
+.narrow-body{
+	width: 25%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.bold-text{
+	color: black;
+	font-weight: bolder;
+}
+.small-img{
+    height: auto;
+    width: auto;
+}
+
+#small-fire{
+	max-width: 100% 
+}
+
+footer{
+	background: #F9E7DC;
+}
+
+.footer-img{
+	width: 100%;
+    height: 150px;
+    object-fit: cover;
+    object-position: center 25%;
+}
