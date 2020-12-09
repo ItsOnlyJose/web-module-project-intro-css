@@ -35,7 +35,6 @@ nav{
 }
 
 nav .nav-container{
-	margin: 0 auto;
 	padding: 1em;
 	display: flex;
 	justify-content: space-evenly;
@@ -61,12 +60,14 @@ nav .nav-container{
 }
 
 header{
-	margin: 0 auto;
 	height: 15%;
-	width: 80%;
-	display: inline-flex;
+	width: 100%;
 }
 
+.container{
+	margin: 0 25%;
+	display: inline-flex;
+}
 
 header .header-text{
 	width: 50%;
@@ -109,6 +110,10 @@ p{
 	text-align: center;
 }
 
+.bold-text{
+	color: black;
+	font-weight: bolder;
+}
 .small-img{
     height: auto;
     width: auto;
