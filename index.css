@@ -35,7 +35,7 @@ nav{
 }
 
 nav .nav-container{
-	margin: 2em;
+	margin: 0 auto;
 	padding: 1em;
 	display: flex;
 	justify-content: space-evenly;
@@ -61,25 +61,65 @@ nav .nav-container{
 }
 
 header{
+	margin: 0 auto;
 	height: 15%;
-	width: 100%;
-	display: flex;
-	justify-content: center;
+	width: 80%;
+	display: inline-flex;
 }
+
 
 header .header-text{
 	width: 50%;
 }
+
 
 header h1{
 	font-size: 48px;
 	font-family: 'Chelsea Market', cursive;
 }
 
+header div {
+	margin: 0 auto;
+}
+
 
 .header-img{
-	height: 12vh;
+	height: 20vh;
 	border-radius: 50%;
+}
+
+p{
+	margin: 1em 1em;
+}
+
+.main{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.yosemite-intro {
+	background: #DDB9A3;
+	color: white;
+	text-align: center;
+ }
+
+.narrow-body{
+	width: 25%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.small-img{
+    height: auto;
+    width: auto;
+}
+
+#small-fire{
+	max-width: 100% 
+}
+
+footer{
+	background: #F9E7DC;
 }
 
 .footer-img{
